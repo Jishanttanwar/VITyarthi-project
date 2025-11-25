@@ -1,24 +1,68 @@
-# VITyarthi-project
-1. Problem Statement
-1.1 Definition : This is the project called the Youtube video and time manager app . This will take the name of the video from the user and the time span of the video . So, that the user can decide what to watch and how much time does this thing will take to watch . 
+ YouTube Video Manager
 
-1.2 Requirement : None just the code . it will create the .txt file automatically and everything will be stored in it.
+This is a small Python project I made to keep track of YouTube videos I plan to watch later. I usually forget which videos I saved or how long they were, so I wanted something simple that could store everything in one place without needing bookmarks or big apps.
 
-2. Design
-   2.1 Algorithm :
-                 Step 1: START
-                 Step 2: We will import the JSON lib. because , we will store data and load data in json format.
-                 Step 3: The second thing will do is the load the saved data from the .txt file.
-                 Step 4: The next we will do is saving the name and time in the file.
-                 Step 5: all_video will show all the videos in the list format and we will do a bit of decoration there so that we can see clearly
-                 Step 6: Add a new video by taking the user input about the name of the video and the time duration of the video .
-                 Step 7: We will make a update option that will allow the user to update the name and time duration of the video. 
-                 Step 8: Next one is the Delete option . It will allow the user to delete the existing video .
-                 Step 9: The main meanu loop . It will be shown to the user untill the user exists the app.
-                 Step 10: Finally to run the app we will use Run main().
-                 Step 11: STOP
 
-3. Code/Impelementaions
+
+ What This App Can Do
+	•	Add a video with its name and duration
+	•	Show the full list of all saved videos
+	•	Change the name or time of any video
+	•	Delete a video you no longer want to keep
+	•	Save everything automatically so nothing gets lost
+
+It runs in the terminal and uses a straightforward menu. There’s nothing complicated — just choose an option and follow the steps.
+
+
+
+ How It Works (In Normal Language)
+
+When you open the program:
+	1.	It loads whatever videos you had saved earlier.
+	2.	It shows a small menu.
+	3.	You pick what you want to do.
+	4.	The program updates the saved file so your changes stay there.
+
+There isn’t any special setup or installation needed.
+
+
+
+ Files in This Project
+	•	youtubemanager_app.py → The main Python file
+	•	youtube.txt → Where all your videos get saved
+
+
+
+ How to Run It
+	1.	Install Python if you don’t already have it.
+	2.	Open your terminal or command prompt.
+	3.	Go to the folder where this project is stored.
+	4.	Run:
+
+python3 youtubemanager_app.py
+
+
+
+
+ Why I Made This ?
+
+I wanted to practice Python basics like storing data, handling user input, using lists/dictionaries, and working with files. Instead of making something random, I decided to build a tool I’d actually use.
+
+It solves a simple problem: remembering YouTube videos and how long they are.
+
+
+
+ Ideas for Future Updates
+	•	Show the total watch time
+	•	Mark videos as watched
+	•	Sort the list (alphabetical or by duration)
+	•	Build a proper interface instead of using the terminal
+	•	Turn it into a small mobile app later
+
+
+ Summary
+
+This is a small and simple project, but it’s practical and easy to understand. It’s a good example of how basic Python concepts can be used to make something useful. You can keep it as it is or build a bigger version from it.
    
 <img width="746" height="778" alt="Screenshot 2025-11-23 at 2 16 54 PM" src="https://github.com/user-attachments/assets/9d969562-acd7-4a77-bb1d-61c204f52fd8" />
 <img width="721" height="807" alt="Screenshot 2025-11-23 at 2 17 32 PM" src="https://github.com/user-attachments/assets/d99e6a61-745d-4691-aa8d-de769fecd6c5" />
